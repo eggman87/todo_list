@@ -11,6 +11,10 @@ class Task
 		self.complete = false 
 	end
 
+	def complete
+		self.complete = true	
+	end
+
 end
 
 if __FILE__ == $0
